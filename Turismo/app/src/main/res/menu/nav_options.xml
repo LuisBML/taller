@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_museos"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Museos"
+            />
+
+        <item
+            android:id="@+id/menu_restaurantes"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Restaurantes"
+            />
+
+        <item
+            android:id="@+id/menu_recreativas"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Áreas recreativas"
+            />
+
+        <item
+            android:id="@+id/menu_atracciones"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Atracciones"
+            />
+    </group>
+
+    <item android:title="Acerca">
+        <menu>
+            <item
+                android:id="@+id/menu_ciudad"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="Chihuahua"
+                />
+
+            <item
+                android:id="@+id/menu_nosotros"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="Chihuahua"
+                />
+        </menu>
+    </item>
+</menu>
