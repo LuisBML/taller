@@ -2,43 +2,36 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/menu_museos"
-            android:icon="@android:drawable/ic_dialog_info"
-            android:title="Museos"
-            />
-
-        <item
-            android:id="@+id/menu_restaurantes"
-            android:icon="@android:drawable/ic_dialog_info"
+            android:id="@+id/menu_restaurant"
+            android:icon="@android:drawable/ic_dialog_email"
             android:title="Restaurantes"
             />
-
         <item
-            android:id="@+id/menu_recreativas"
-            android:icon="@android:drawable/ic_dialog_info"
-            android:title="Áreas recreativas"
+            android:id="@+id/menu_museo"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Museos"
             />
-
         <item
-            android:id="@+id/menu_atracciones"
+            android:id="@+id/menu_hotel"
             android:icon="@android:drawable/ic_dialog_info"
-            android:title="Atracciones"
+            android:title="Hoteles"
             />
     </group>
 
-    <item android:title="Acerca">
+    <item android:title="More options">
         <menu>
             <item
-                android:id="@+id/menu_ciudad"
-                android:icon="@android:drawable/ic_dialog_info"
-                android:title="Chihuahua"
+                android:id="@+id/menu_option1"
+                android:icon="@android:drawable/ic_dialog_dialer"
+                android:title="Option 1"
                 />
 
             <item
-                android:id="@+id/menu_nosotros"
-                android:icon="@android:drawable/ic_dialog_info"
-                android:title="Chihuahua"
+                android:id="@+id/menu_option2"
+                android:icon="@android:drawable/ic_dialog_dialer"
+                android:title="Option 2"
                 />
         </menu>
     </item>
+
 </menu>

@@ -1,4 +1,4 @@
-package turismo.taller.itchii.turismo;
+package curso.seccion08.seccion08navigationdrawer;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("turismo.taller.itchii.turismo", appContext.getPackageName());
+        assertEquals("curso.seccion08.seccion08navigationdrawer", appContext.getPackageName());
     }
 }

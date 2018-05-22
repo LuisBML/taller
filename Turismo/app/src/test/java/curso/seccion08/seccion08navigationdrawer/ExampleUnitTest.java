@@ -1,4 +1,4 @@
-package turismo.taller.itchii.turismo;
+package curso.seccion08.seccion08navigationdrawer;
 
 import org.junit.Test;
 
